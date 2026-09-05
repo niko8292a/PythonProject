@@ -146,3 +146,12 @@
 
 # if = Do some code IF some condition is true
 #      Else do something else
+
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("You are old enough to vote!")
+elif age < 0:
+    print("You haven't been born yet!")
+else:
+    print("You are not old enough to vote!")
