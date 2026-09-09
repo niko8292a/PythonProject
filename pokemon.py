@@ -89,7 +89,7 @@ while True:
 
 
         if move == "3":
-            enemyhealth -= heal
+            enemyhealth -= tackle
             print(f"{pokemon} used tackle!")
             print(f"{enemypokemon} lost {tackle} HP")
 
